@@ -6,8 +6,8 @@ let fr = 6;
 
 
 function setup() {
-  createCanvas(640, 360);
-  extraCanvas = createGraphics(640, 360);
+  createCanvas(1080, 900);
+  extraCanvas = createGraphics(1080, 900);
   extraCanvas.clear;
   shape1 = new Draggable(100, 100, 100, 100);
   frameRate(fr);
