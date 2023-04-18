@@ -27,7 +27,6 @@ function draw() {
     extraCanvas.fill(255,0,0,40);
   }
   extraCanvas.noStroke();
-extraCanvas.translate();
   extraCanvas.ellipse(mouseX, mouseY, 50);
 
    image(extraCanvas,0,0);

@@ -34,11 +34,11 @@ class Draggable {
     stroke(0);
     // Different fill based on state
     if (this.dragging) {
-      fill(50);
+      fill(0,0,255);
     } else if (this.rollover) {
-      fill(100);
+      fill(0,0,255);
     } else {
-      fill(175, 200);
+      fill(0,0,255);
     }
     rect(this.x, this.y, this.w, this.h);
   }
